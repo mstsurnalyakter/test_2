@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
+import Carouse from './components/Carouse'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Carouse />
       <div className="min-h-[calc(100vh-326px)]">
         <h1>Hello</h1>
         <h2>Surnaly</h2>
