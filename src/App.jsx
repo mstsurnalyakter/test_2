@@ -10,13 +10,14 @@ function App() {
 
   return (
     <div>
-      <NavBar/>
-      <h1>Hello</h1>
-      <h2>Surnaly</h2>
+      <NavBar />
+      <div className="min-h-[calc(100vh-326px)]">
+        <h1>Hello</h1>
+        <h2>Surnaly</h2>
+      </div>
       <Footer />
-
     </div>
-  )
+  );
 }
 
 export default App
